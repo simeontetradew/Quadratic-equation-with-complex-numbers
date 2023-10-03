@@ -1,6 +1,6 @@
 import math
 a = float(input('a: '))
-b = float(input('b:' ))
+b = float(input('b: '))
 c = float(input('c: '))
 d = b**2 - 4*a*c
 if (a == 0):
