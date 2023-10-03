@@ -1,6 +1,6 @@
 import math
 def main():
-    print('Quadratic equation is a type of equation where ax^2+bx+c=0, now please type your coefficients below:') # Prints out a starting message.
+    print('Quadratic equation is a type of equation where ax^2+bx+c=0, now please type your coefficients below: ') # Prints out a starting message.
 def menu(): # This is the main program.
     try:
         a = float(input('a: '))
@@ -32,10 +32,10 @@ def menu(): # This is the main program.
             x2 = (-b - math.sqrt(d))/2/a
             print('The value of x1 is ' + str(x1) + ', and the value of x2 is ' + str(x2)) # Prints out the values of the 2 solutions. 
     except ZeroDivisionError: # Runs when a value of 0 has been set to 'a'.
-        print('The value of "a" cannot be "0" as a division by zero is not possible, please try another value of "a":') 
+        print('The value of "a" cannot be "0" as a division by zero is not possible, please try another value of "a": ') 
         return menu() # Makes the user type another value for 'a' and then type the values for 'b' and 'c'.
     except ValueError: # Runs where a user has typed a string or character instead of number for 'a', 'b' or 'c'.
-        print('You must type real numbers in order for the program to work, please try again:')
+        print('You must type real numbers in order for the program to work, please try again: ')
         return menu() # Makes the user type another values for the 3 coefficients.
 main()
 menu()
