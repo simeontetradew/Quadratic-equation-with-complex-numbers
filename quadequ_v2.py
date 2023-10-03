@@ -1,7 +1,7 @@
 import math
 def main():
     print('Quadratic equation is a type of equation where ax^2+bx+c=0, now please type your coefficients below:') # Prints out a starting message.
-def menu(): # This is the main program
+def menu(): # This is the main program.
     try:
         a = float(input('a: '))
         zero = 1/a # This is used in order to type the divide-by-zero-message from the point where the value of 'a' is set to 0.
