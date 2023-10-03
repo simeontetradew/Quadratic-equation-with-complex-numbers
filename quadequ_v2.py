@@ -4,7 +4,7 @@ def main():
 def menu(): # This is the main program.
     try:
         a = float(input('a: '))
-        zero = 1/a # This is used in order to type the divide-by-zero-message from the point where the value of 'a' is set to 0.
+        zero = 1/a # This is used in order to print out the divide-by-zero-message from the point where the value of 'a' is set to 0.
         b = float(input('b: '))
         c = float(input('c: '))
         d = b**2 - 4*a*c
