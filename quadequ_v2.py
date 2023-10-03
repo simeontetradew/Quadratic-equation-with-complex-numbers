@@ -21,7 +21,7 @@ def menu(): # This is the main program.
                 elif (ans == 'n'):
                     print('The equation has no real answers.')
                 else:
-                    print('Invalid option, please choose type "y" or "n": ') # Makes the user choose if he wants to use complex numbers or not.
+                    print('Invalid option, please type "y" or "n": ') # Makes the user choose if he wants to use complex numbers or not.
                     return q(a, d)
             q(a, d)
         elif (d == 0):
