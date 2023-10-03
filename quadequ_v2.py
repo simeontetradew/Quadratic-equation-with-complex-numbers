@@ -13,7 +13,7 @@ def menu(): # This is the main program.
                 ans = input('The discriminant`s value is below zero, do you want to solve the equation using imaginary numbers? Type "y" for YES and "n" for "NO": ')
                 if (ans == 'y'):
                     d = math.sqrt(-d) #
-                    i = 1j            # These 3 lines are used in order to convert 'd' to imaginary number.
+                    i = 1j            # These 3 lines are used in order to convert the square root of 'd' to an imaginary number.
                     d = d*i           #
                     x1 = (-b - d)/2/a
                     x2 = (-b + d)/2/a
